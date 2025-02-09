@@ -42,7 +42,7 @@ const FileUpload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/upload",
+        "https://creditscan.onrender.com/api/upload",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
@@ -70,7 +70,7 @@ const FileUpload = () => {
     }
     try {
       const response = await axios.get(
-        `http://localhost:3000/api/get/${number}`
+        `https://creditscan.onrender.com/api/get/${number}`
       );
   
       setMessage({ type: 1, message: response.data.message });
