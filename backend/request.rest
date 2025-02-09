@@ -1,4 +1,5 @@
-# POST http://localhost:3000/api/upload
-# Content-Type: multipart/form-data
+###
+GET http://localhost:3000/api/get/9987217355
 
-# < ./uploads/sample.xml
+###
+https://creditscan.onrender.com/api/get/9987217355
